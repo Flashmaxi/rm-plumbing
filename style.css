@@ -1,0 +1,85 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: gray !important;
+    text-decoration: underline solid #DD3142;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.nav-link:active {
+    color: black;
+    text-decoration: underline solid #DD3142;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+.py-22 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.px-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-danger {
+    color: #DD3142;
+}
+
+.btn-danger {
+    background-color: #DD3142;
+    color: white;
+}
+
+.btn-danger:hover {
+    color: #DD3142;
+    border: 1px solid  #DD3142;
+    background-color: transparent;
+}
+
+.btn-outline-danger {
+    color: #DD3142;
+    border: 1px solid  #DD3142;
+}
+
+.btn-outline-danger:hover {
+    color: white;
+    background-color: #DD3142;
+}
+
+.nav-link.active {
+    text-decoration: underline solid #DD3142;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #DD3142;
+    background-color: #dd31421a;
+    box-shadow: inset 0 -1px 0 rgba(221, 49, 66, 0.2);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #DD3142;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(221, 49, 66, 0.2);
+}
